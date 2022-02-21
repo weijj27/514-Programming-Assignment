@@ -281,9 +281,9 @@ if __name__ == '__main__':
     univariate_regression(X_train_data, X_test_data, y_train_data, y_test_data, features, learnRate, maxStep)
 
     learnRate = 0.0001
-    #multivariate_regression(X_train_data, X_test_data, y_train_data, y_test_data, features, learnRate, maxStep)
+    multivariate_regression(X_train_data, X_test_data, y_train_data, y_test_data, features, learnRate, maxStep)
 
-    #polynomial_regression(X_train_data, X_test_data, y_train_data, y_test_data, features, learnRate, maxStep)
+    polynomial_regression(X_train_data, X_test_data, y_train_data, y_test_data, features, learnRate, maxStep)
 
 
 
